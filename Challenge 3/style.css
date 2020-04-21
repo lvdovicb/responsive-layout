@@ -7,18 +7,18 @@ body {
 }
 
 .container {
-    width: 100%;
     background-color: #23424A;
-    margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     align-items: center;
+    padding: 2rem;
 }
 
 .main {
-    width: 50%;
-    padding: 5rem 7rem;
+    width: 80%;
+    max-width: 750px;
+    outline: 1px solid yellow;
 }
 
 .title {
